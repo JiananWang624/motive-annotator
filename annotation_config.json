@@ -1,0 +1,33 @@
+{
+  "stable_ms": 300,
+  "correction_timeout_s": 10,
+  "events": [
+      {
+        "name": "transfer_start",
+        "label": "Transfer Start",
+        "hotkey": "<ctrl>+<alt>+z"
+      },
+      {
+        "name": "transfer_end",
+        "label": "Transfer End",
+        "hotkey": "<ctrl>+<alt>+x"
+      },
+      {
+        "name": "withdrawal_start",
+        "label": "Withdrawal Start",
+        "hotkey": "<ctrl>+<alt>+c"
+      },
+      {
+        "name": "withdrawal_end",
+        "label": "Withdrawal End",
+        "hotkey": "<ctrl>+<alt>+v"
+      }
+    ],
+  "actions": {
+    "correction_mode": "<ctrl>+<alt>+<shift>+e",
+    "undo": "<ctrl>+<alt>+<shift>+u",
+    "next_bite": "<ctrl>+<alt>+<shift>+n",
+    "previous_bite": "<ctrl>+<alt>+<shift>+p",
+    "quit": "<ctrl>+<alt>+<shift>+q"
+  }
+}

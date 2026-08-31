@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+# Visual Studio build output
+**/Debug/
+**/Release/
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.tlog/
+*.lastbuildstate
+*.log
+*.cache
+
